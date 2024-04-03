@@ -1,0 +1,29 @@
+.header {
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left-part {
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  text-transform: uppercase;
+
+  margin-left: 100px;
+
+  font-family: "Shantell Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 33px;
+  color: #0077c8;
+}
+
+.header__right-part {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,95 @@
+.tools {
+}
+
+.tools__id {
+  width: 150px;
+  height: 30px;
+  margin-right: 50px;
+  padding-left: 10px;
+  border: 2px solid #0077c8;
+  border-radius: 20px;
+
+  font-family: "Shantell Sans";
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #0077c8;
+}
+
+.tools__id::-webkit-outer-spin-button,
+.tools__id::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.tools__name {
+  width: 170px;
+  height: 30px;
+  margin-right: 50px;
+  padding-left: 10px;
+  border: 2px solid #0077c8;
+  border-radius: 20px;
+
+  font-family: "Shantell Sans";
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #0077c8;
+}
+
+.tools__id::placeholder,
+.tools__name::placeholder {
+  font-family: "Shantell Sans";
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #0077c8;
+}
+
+.tools__id:focus,
+.tools__name:focus,
+.tools__type:focus,
+.tools__btn:focus {
+  outline: none;
+}
+
+.tools__type {
+  width: 140px;
+  height: 36px;
+  margin-right: 50px;
+  padding-left: 10px;
+  border: 2px solid #0077c8;
+  border-radius: 20px;
+  cursor: pointer;
+
+  font-family: "Shantell Sans";
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #0077c8;
+}
+
+.tools__btn {
+  width: 100px;
+  height: 36px;
+  border: 2px solid #0077c8;
+  border-radius: 20px;
+  background-color: #0077c8;
+
+  font-family: "Shantell Sans";
+  font-weight: 400;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.tools__btn:hover {
+  background-color: #298aca;
+  border: 2px solid #298aca;
+  cursor: pointer;
+}
+
+.tools__btn:active {
+  background-color: #1282cc;
+  border: 2px solid #1282cc;
+  cursor: pointer;
+}

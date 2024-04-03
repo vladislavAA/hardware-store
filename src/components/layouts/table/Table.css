@@ -1,0 +1,48 @@
+.empty-result {
+  margin-top: 50px;
+
+  font-family: "Shantell Sans";
+  font-weight: 800;
+  font-size: 30px;
+
+  color: #0077c8;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.table__wrapper {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.table__head {
+}
+
+.table__stroke {
+}
+
+.table__cell-title {
+  border: 2px solid #0077c8;
+
+  font-family: "Shantell Sans";
+  font-weight: 800;
+  font-size: 30px;
+
+  color: #0077c8;
+}
+
+.table__body {
+}
+
+.table__cell {
+  border: 2px solid #0077c8;
+
+  font-family: "Shantell Sans";
+  font-weight: 300;
+  font-size: 30px;
+
+  color: #0077c8;
+}
