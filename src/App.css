@@ -2,6 +2,8 @@
   max-width: 1920px;
   margin: 20px auto;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .App-logo {
